@@ -1,7 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import About from './components/about';
+import App from './containers/App';
+import HelloWorld from "./components/HelloWorld";
 
 //Dos componentes: Elemento a renderizar y elemento donde renderizar
 //React se debe transpilar y para ello usamos babel - Transforma el codigo React a JS
-ReactDOM.render( < About / > , document.getElementById('app'));
+//ReactDOM.render( < App / > , document.getElementById('app'));
+
+ReactDOM.render( < HelloWorld / > , document.getElementById('app'));
