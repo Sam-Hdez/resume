@@ -2,25 +2,25 @@
 //Para React se inicializan los nombres de los componentes en mayúsculas
 import React from "react";
 
-const About = () => (
+const About = ( { avatar, name, profession, bio, address, social } ) => (
     <div className="About">
         <div className="About-container">
             <div className="About-avatar">
                 <figure>
-                    <img src="" alt="About-avatar" />
+                    <img src={avatar} alt={name} />
                 </figure>
             </div>
             <div className="About-name">
-                <h2>Name</h2>
+                <h2>{name}</h2>
             </div>
             <div className="About-profession">
-                <p>Proefssion</p>
+                <p>{profession}</p>
             </div>
             <div className="About-desc">
-                <p>About me: Description</p>
+                <p>{bio}</p>
             </div>
             <div className="About-location">
-                <p>Location</p>
+                <p>{address}</p>
             </div>
             <div className="About-social">
                 Social

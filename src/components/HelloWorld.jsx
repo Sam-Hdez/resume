@@ -1,3 +1,7 @@
+/*
+Nuestros hooks tiene 3 tareas: manejar el estado, conseguir información 
+y entregarle esta información a nuestros componentes a través del estado.
+*/
 import React, { useState } from "react";
 
 const HelloWorld = () => {
