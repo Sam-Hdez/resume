@@ -4,7 +4,7 @@ const Skills = props => (
     <div className="Skills">
         <div className="Skills-container">
             {props.data.map((skill, index) => (
-                <div className="Skills-item" key={`Cert-${index}`}>
+                <div className="Skills-item" key={`Skill-${index}`}>
                     <h5> {skill.name} </h5>
                     <p> {skill.years} </p>
                     <div className="Skills-line">
