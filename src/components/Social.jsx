@@ -46,7 +46,6 @@ const github = {
 }
 
 const getColor = (name) => {
-    console.log(name);
     if (name=='facebook') return facebook;
     if (name=='twitter') return twitter;
     if (name=='linkedin') return linkedin;
